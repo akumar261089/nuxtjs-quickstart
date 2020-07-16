@@ -35,6 +35,10 @@ Generate static files under `dist` folder
 npm run build
 nuxt export
 ```
+To run Locally
+```
+nuxt serve
+```
 
 Content of `dist` folder can be copied to Nginx or Github pages. You can try this with Nginx docker
 Replace your path to dist folder.
